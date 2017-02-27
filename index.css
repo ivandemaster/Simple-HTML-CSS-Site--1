@@ -1,0 +1,68 @@
+@charset "utf-8";
+.image1
+{
+	background : #1B98E0;
+	background : linear-gradient(0deg,rgba(27, 152, 224,0.9),rgba(27, 152, 224,0.9)),url(image1.png);
+}
+.contact
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+	font-style : italic;
+	font-size : 20px;
+	color : #B3B3B3;
+	color : rgb(179, 179, 179);
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+}
+.coming-soon
+{
+    font-family: 'Raleway', sans-serif;
+	font-weight : 800;
+	font-size : 63px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.centered {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+.contact {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.contact li {
+    display: inline-block;
+    padding: 20px;
+}
+    
+.contact li a {
+    transition: .5s;
+}
+    
+.contact li a:hover img {
+    transform: scale(1.8);
+    cursor: pointer;
+    opacity: 1;
+}
+    
+.contact li a img {
+    transition: .5s;
+    opacity: .4;
+    height: 22px;
+    width: 22px;
+    color: white;
+}
